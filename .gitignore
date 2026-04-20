@@ -65,3 +65,11 @@ node_modules/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# KiCad transient artifacts
+# ZIP/archives and editor lock files produced during exports or by tools
+*.zip
+*.7z
+*.tar.gz
+*.lck
+*.lock
