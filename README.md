@@ -9,6 +9,9 @@ The first project I created was the [HDD Synth](https://github.com/MaverickUK/HD
 
 The FDD Synth listens to the signals on the FDD cable that indicate when the motor is spinning and when the head is moving. It essentially recreates those physical actions in software, meaning that when the FDD motor starts spinning the disk it'll play a short spinup sound before a looping spin sound continues. FDD head movement is monitored and replicated with a short click for small movement along with hum of move rapid track changes. 
 
+<img src="images/render_front.png" alt="FDD Synth PCB front">
+<img src="images/render_back.png" alt="FDD Synth PCB back">
+
 ## Features
 
 - **Plug and Play**: Uses FDD cable to monitor the exact FDD activity, so all you have to do it plug it in
