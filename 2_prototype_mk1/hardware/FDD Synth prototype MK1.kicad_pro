@@ -652,7 +652,7 @@
         "uuid": "ed113b11-1722-4efb-9669-9e8c19f5c8fd"
       }
     ],
-    "used_designators": "J2-4,RN1,RN3,R1,D1,C3,#PWR1-8,U1",
+    "used_designators": "J2-6,RN1,RN3,R1,D1,C3,#PWR1-8,#PWR10-11,U1",
     "variants": []
   },
   "sheets": [
@@ -671,6 +671,14 @@
     [
       "4e69397e-32a0-4092-b3b2-a1df13694fcd",
       "FDD interface"
+    ],
+    [
+      "81582392-7b2a-427d-9abc-5c3700b61a05",
+      "OLED"
+    ],
+    [
+      "79cc8d7b-e277-4f46-b921-92dfa6f74856",
+      "LED"
     ]
   ],
   "text_variables": {},

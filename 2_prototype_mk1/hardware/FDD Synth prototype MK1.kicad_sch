@@ -1746,18 +1746,6 @@
 		)
 		(uuid "9fdb45c4-c56a-4cf6-a747-e00a69e0f10d")
 	)
-	(text "OLED screen debug output\n\n1) VCC	3.3V\n2) GND	GND pin\n3) SCL	I2C SCL pin\n4) SDA	I2C SDA Pin"
-		(exclude_from_sim no)
-		(at 41.148 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 30 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "e128a3bf-757b-48ca-8c6f-f87220351cca")
-	)
 	(junction
 		(at 95.25 39.37)
 		(diameter 0)
@@ -1775,10 +1763,6 @@
 	(no_connect
 		(at 85.09 41.91)
 		(uuid "2198b253-52ce-4d86-be83-0e0ff9b024dc")
-	)
-	(no_connect
-		(at 124.46 82.55)
-		(uuid "2373b526-fe30-43f9-b916-7918007a09b5")
 	)
 	(no_connect
 		(at 124.46 113.03)
@@ -1832,26 +1816,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 88.9) (xy 77.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ea502a-0e6d-4696-b18d-5f33d03c5eb6")
-	)
-	(wire
-		(pts
-			(xy 77.47 80.01) (xy 77.47 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bdca96a-136d-4716-b350-945e213ff415")
-	)
-	(wire
-		(pts
 			(xy 95.25 36.83) (xy 95.25 39.37)
 		)
 		(stroke
@@ -1882,6 +1846,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce2a542-90a5-4050-9a8b-33aade48420a")
+	)
+	(wire
+		(pts
 			(xy 170.18 80.01) (xy 181.61 80.01)
 		)
 		(stroke
@@ -1909,6 +1883,26 @@
 			(type default)
 		)
 		(uuid "3bacd7f3-b227-4deb-87f7-70248ad7f7b9")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.55) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40872968-7547-4218-af09-c2c2bbd74202")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de9e2ad-1e9b-498b-8475-29cb6d8337a2")
 	)
 	(wire
 		(pts
@@ -1972,43 +1966,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 114.3 91.44)
+			(xy 119.38 63.5) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "741c5895-8242-4127-a073-7a8e70338336")
-	)
-	(wire
-		(pts
-			(xy 77.47 86.36) (xy 71.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c98f17-383d-4624-b836-f12832f6146e")
-	)
-	(wire
-		(pts
-			(xy 77.47 88.9) (xy 71.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "886af72f-7311-481e-b6e7-2b70ae509807")
-	)
-	(wire
-		(pts
-			(xy 116.84 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3f5116-7827-4a8f-8eef-f295da22e9e8")
+		(uuid "8a93d6cd-afd4-48ec-b95c-9a2fb52e234a")
 	)
 	(wire
 		(pts
@@ -2052,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca82a49-dc62-4a76-bd61-bd6ba4008d15")
+	)
+	(wire
+		(pts
 			(xy 152.4 44.45) (xy 152.4 52.07)
 		)
 		(stroke
@@ -2059,26 +2033,6 @@
 			(type default)
 		)
 		(uuid "9f142fc9-03b3-4cd9-afbb-627a2a6d18ca")
-	)
-	(wire
-		(pts
-			(xy 114.3 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1e0cbf3-e5a1-4ab0-a873-e07240d5382c")
-	)
-	(wire
-		(pts
-			(xy 71.12 91.44) (xy 114.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba4ea9ba-9792-48ea-8d9b-7c382f0522f9")
 	)
 	(wire
 		(pts
@@ -2109,26 +2063,6 @@
 			(type default)
 		)
 		(uuid "d7dabb44-9a6b-4f6e-98a8-e50b5d41925d")
-	)
-	(wire
-		(pts
-			(xy 71.12 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc8377d-1af6-4e41-90e7-905f5f305f7f")
-	)
-	(wire
-		(pts
-			(xy 116.84 85.09) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d1f728-b0fc-46b5-9b82-2ae23dc30490")
 	)
 	(wire
 		(pts
@@ -2171,7 +2105,7 @@
 		(uuid "f6b0e6ec-f66d-48fb-a33e-03ff1da50718")
 	)
 	(label "OLED_I2C_SCL"
-		(at 85.09 91.44 0)
+		(at 74.93 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2181,7 +2115,7 @@
 		(uuid "5852ea2f-21b8-46f0-8e22-6796855d6ab6")
 	)
 	(label "OLED_I2C_SDA"
-		(at 85.09 93.98 0)
+		(at 74.93 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,104 +2123,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f9d0a92-49b6-41de-9f0b-a5a3bdf29c50")
-	)
-	(label "OLED_GND"
-		(at 77.47 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a96cfaf-4317-4d5c-9b42-3b6d05ce6cfe")
-	)
-	(label "OLED_3V"
-		(at 77.47 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f860e522-ca06-4cbf-8ee7-90e0819425a1")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 77.47 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33491fd4-ea7a-4301-8017-e36b40f7791f")
-		(property "Reference" "#PWR07"
-			(at 77.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 77.47 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a20d7ff6-ade6-450b-8aa9-986cc6c1bb58")
-		)
-		(instances
-			(project "FDD Synth prototype MK1"
-				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2361,84 +2197,6 @@
 			(project "FDD Synth prototype MK1"
 				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "631955fc-8c8c-4af3-8602-41c7313a985d")
-		(property "Reference" "#PWR08"
-			(at 77.47 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c6fabf9-2f1f-4c58-a00e-4853c3750673")
-		)
-		(instances
-			(project "FDD Synth prototype MK1"
-				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2800,92 +2558,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 66.04 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8994103-5267-4481-9f43-dd90f93226af")
-		(property "Reference" "J4"
-			(at 66.675 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 66.675 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 66.04 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 66.04 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5cbdaa3a-9ef5-4994-a7c6-ce9444cc4cc7")
-		)
-		(pin "3"
-			(uuid "f6209179-b973-471f-b755-fbfba01db421")
-		)
-		(pin "4"
-			(uuid "a943a0f0-2059-4a90-a2bc-aa778c1311fa")
-		)
-		(pin "1"
-			(uuid "67434def-3a99-4582-83a2-e5fc0c62dd35")
-		)
-		(instances
-			(project "FDD Synth prototype MK1"
-				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
 		(at 80.01 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -3092,6 +2764,128 @@
 			(project "FDD Synth prototype MK1"
 				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 60.96)
+		(size 21.59 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "79cc8d7b-e277-4f46-b921-92dfa6f74856")
+		(property "Sheetname" "LED"
+			(at 90.17 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 90.17 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_ANODE" input
+			(at 111.76 63.5 0)
+			(uuid "c96a236f-1bf1-4502-8aa4-fd4db5be468e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 83.82)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "81582392-7b2a-427d-9abc-5c3700b61a05")
+		(property "Sheetname" "OLED"
+			(at 48.26 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oled.kicad_sch"
+			(at 48.26 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OLED_SCL" bidirectional
+			(at 68.58 87.63 0)
+			(uuid "ef6d2a3e-e55a-4068-8c3d-954d74619db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OLED_SDA" bidirectional
+			(at 68.58 85.09 0)
+			(uuid "fcdf7ba8-e664-4e56-a950-1a72b47be5a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(page "5")
 				)
 			)
 		)
