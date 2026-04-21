@@ -652,7 +652,7 @@
         "uuid": "ed113b11-1722-4efb-9669-9e8c19f5c8fd"
       }
     ],
-    "used_designators": "RN1,R1,C3,#PWR1-3,U1",
+    "used_designators": "J2-4,RN1,RN3,R1,D1,C3,#PWR1-6,U1",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "fe112bae-5f2b-4222-b0d9-22039210278c",
       "SD card reader"
+    ],
+    [
+      "4e69397e-32a0-4092-b3b2-a1df13694fcd",
+      "FDD interface"
     ]
   ],
   "text_variables": {},
