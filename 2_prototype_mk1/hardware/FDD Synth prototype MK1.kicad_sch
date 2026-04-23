@@ -1468,6 +1468,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1607,6 +1730,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1723,6 +1985,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 17.78 167.64)
+		(end 54.61 193.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "12e6ab96-3c83-45a4-a49e-6e82c50be8c3")
+	)
+	(text "Mounting points"
+		(exclude_from_sim no)
+		(at 26.162 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "317c348f-ae05-4647-ad6e-04c1ace86dc6")
+	)
 	(text "1) +5V (Usually the Red wire)\n2) Ground (Black)\n3) Ground (Black)\n4) +12V (Usually the Yellow wire)"
 		(exclude_from_sim no)
 		(at 40.64 35.306 0)
@@ -1747,10 +2031,34 @@
 		(uuid "9fdb45c4-c56a-4cf6-a747-e00a69e0f10d")
 	)
 	(junction
+		(at 173.99 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4631fdc0-d07d-4a4b-ba81-0d5e64edb702")
+	)
+	(junction
+		(at 142.24 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "597be162-6f05-4704-817b-e84d4b8079f0")
+	)
+	(junction
+		(at 92.71 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e975f78-529f-4025-9771-cf64ae1363a8")
+	)
+	(junction
 		(at 95.25 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0fb1ba5-f3bb-47cc-9d45-1086a1d69a47")
+	)
+	(junction
+		(at 24.13 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf5290e-ee6c-4e2b-b923-7ec67092c981")
 	)
 	(no_connect
 		(at 124.46 92.71)
@@ -1813,6 +2121,56 @@
 			(type default)
 		)
 		(uuid "0430a6a3-0cc8-4c75-a118-945d41c48f5d")
+	)
+	(wire
+		(pts
+			(xy 24.13 177.8) (xy 31.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a9fb5b-fc19-4476-a674-516739116bd0")
+	)
+	(wire
+		(pts
+			(xy 24.13 185.42) (xy 31.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae43f59-c975-4096-b16f-ccf0112555aa")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d995107-4376-4d9c-9d31-e5da3c1fa769")
+	)
+	(wire
+		(pts
+			(xy 92.71 27.94) (xy 92.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dadefc2-7909-4912-8367-ebc438b893e1")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d43e226-1f90-4d23-b695-60acdef60ee7")
 	)
 	(wire
 		(pts
@@ -1966,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 30.48) (xy 142.24 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792b2522-3f23-4bfe-b4d6-21c197d38caf")
+	)
+	(wire
+		(pts
 			(xy 119.38 63.5) (xy 111.76 63.5)
 		)
 		(stroke
@@ -1973,6 +2341,16 @@
 			(type default)
 		)
 		(uuid "8a93d6cd-afd4-48ec-b95c-9a2fb52e234a")
+	)
+	(wire
+		(pts
+			(xy 173.99 113.03) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9117d3d4-06da-408f-953c-347367c5c50c")
 	)
 	(wire
 		(pts
@@ -2026,6 +2404,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d046f9b-b556-4e39-b0c0-a32907731435")
+	)
+	(wire
+		(pts
 			(xy 152.4 44.45) (xy 152.4 52.07)
 		)
 		(stroke
@@ -2036,13 +2424,33 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 106.68 34.29)
+			(xy 85.09 34.29) (xy 92.71 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be5df856-5691-4eed-bdf6-3406ed98ee45")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c814dc58-e344-4a34-9236-71316227e7ec")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd46413f-d058-4b3e-8b60-019bc4473269")
 	)
 	(wire
 		(pts
@@ -2063,6 +2471,16 @@
 			(type default)
 		)
 		(uuid "d7dabb44-9a6b-4f6e-98a8-e50b5d41925d")
+	)
+	(wire
+		(pts
+			(xy 24.13 185.42) (xy 24.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debfbc79-ec9a-4c3a-a5a6-da6ded8a2043")
 	)
 	(wire
 		(pts
@@ -2123,6 +2541,265 @@
 			(justify left bottom)
 		)
 		(uuid "6f9d0a92-49b6-41de-9f0b-a5a3bdf29c50")
+	)
+	(global_label "POWER_5V_SUP"
+		(shape bidirectional)
+		(at 142.24 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37fd9668-1860-48ca-98b0-f3d7cc486715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 11.8693 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1013a044-3761-4110-87c9-ce655bba1cc4")
+		(property "Reference" "#PWR013"
+			(at 173.99 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e8cf6c9-fcfe-4c61-8ee5-d6c68937bfdf")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1793087e-769b-4815-b877-b66e5795f2d8")
+		(property "Reference" "#PWR08"
+			(at 24.13 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d81f208-d535-4e50-8a82-291373b508a7")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 31.75 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cef014-7d00-452f-9821-9fd7a19cddb8")
+		(property "Reference" "H2"
+			(at 34.29 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 34.29 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9afd8b9-ae80-4877-957e-f9c923ecc679")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2551,6 +3228,163 @@
 			(project "FDD Synth prototype MK1"
 				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 31.75 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16e8435-c4ac-419c-ab7c-5d3a7dbe363c")
+		(property "Reference" "H1"
+			(at 34.29 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 34.29 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 31.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 31.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e25241a6-4a25-4632-82d2-56093282943a")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4adeb87-72f6-44d4-af12-fc6aa3064ea4")
+		(property "Reference" "#PWR012"
+			(at 92.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 92.71 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b39678e1-cf5a-4714-b344-6cf7b1ead201")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
