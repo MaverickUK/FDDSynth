@@ -1237,6 +1237,17 @@
 		)
 		(uuid "ce0fb265-738b-4411-b95a-bd19f95b9646")
 	)
+	(text "Hirose DM3D-SF\nManual push/pull \nIdeal for internal use"
+		(exclude_from_sim no)
+		(at 127.762 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d954b21b-89af-45d9-b6a4-99d419d40bc3")
+	)
 	(junction
 		(at 107.95 57.15)
 		(diameter 0)
@@ -1244,10 +1255,16 @@
 		(uuid "2878c4dc-fd03-43cb-8421-bb72aeae50e6")
 	)
 	(junction
-		(at 88.9 87.63)
+		(at 88.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75075f53-3579-4c67-be08-ce56ed29494c")
+		(uuid "4171c3ce-f573-4b8f-82e4-e18d4e294267")
+	)
+	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812a90c6-391c-4791-af8f-f88cb22486f4")
 	)
 	(junction
 		(at 113.03 67.31)
@@ -1260,12 +1277,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9056e00f-5c01-4fab-9b19-baf6459a5f28")
-	)
-	(junction
-		(at 83.82 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3f58565-5093-4573-95b1-26ce571218ef")
 	)
 	(junction
 		(at 86.36 71.12)
@@ -1339,6 +1350,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138a7447-40bb-4584-ae23-8ca3ffcae4f2")
+	)
+	(wire
+		(pts
 			(xy 107.95 113.03) (xy 107.95 114.3)
 		)
 		(stroke
@@ -1376,6 +1397,16 @@
 			(type default)
 		)
 		(uuid "303e0092-780f-4a1b-959a-9fbb334bd112")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410ce73b-a9da-4347-be2b-7b9ff60932f0")
 	)
 	(wire
 		(pts
@@ -1479,13 +1510,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 83.82 92.71)
+			(xy 88.9 92.71) (xy 96.52 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89c87767-f457-4105-bb3b-31890821b968")
+		(uuid "849248c9-4bd6-49e0-ae54-d64378730a99")
 	)
 	(wire
 		(pts
@@ -1499,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 92.71) (xy 83.82 92.71)
+			(xy 77.47 92.71) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1516,16 +1547,6 @@
 			(type default)
 		)
 		(uuid "a11d9dfd-d06c-4bc4-8e4d-08cdef8e6439")
-	)
-	(wire
-		(pts
-			(xy 88.9 82.55) (xy 88.9 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a834f42e-de66-42cd-88d0-d56f7326eca1")
 	)
 	(wire
 		(pts
@@ -1579,23 +1600,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 87.63) (xy 88.9 87.63)
+			(xy 77.47 87.63) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df143302-6692-4aea-9304-e8ed92838352")
-	)
-	(wire
-		(pts
-			(xy 83.82 92.71) (xy 96.52 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29e3a56-f503-4f89-b4e6-7ab9e5d87dc9")
 	)
 	(wire
 		(pts
@@ -1619,13 +1630,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.63) (xy 124.46 87.63)
+			(xy 88.9 82.55) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0afd9e0-5830-43b4-8985-14823afddeed")
+		(uuid "f4962bf6-a0d4-4034-a1cd-f689a06c355a")
 	)
 	(wire
 		(pts
@@ -2162,7 +2173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 176.53 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2184,7 +2195,7 @@
 				)
 			)
 		)
-		(property "Description" "Micro SD Card Socket"
+		(property "Description" "Micro SD Card Socket - Hirose DM3D-SF"
 			(at 147.32 92.71 0)
 			(hide yes)
 			(show_name no)
