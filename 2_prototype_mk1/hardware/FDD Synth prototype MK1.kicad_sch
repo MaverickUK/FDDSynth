@@ -1418,7 +1418,7 @@
 		)
 	)
 	(rectangle
-		(start 17.78 167.64)
+		(start 17.78 160.02)
 		(end 54.61 193.04)
 		(stroke
 			(width 0)
@@ -1431,7 +1431,7 @@
 	)
 	(text "Mounting points"
 		(exclude_from_sim no)
-		(at 26.162 169.672 0)
+		(at 26.416 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1446,10 +1446,16 @@
 		(uuid "4631fdc0-d07d-4a4b-ba81-0d5e64edb702")
 	)
 	(junction
+		(at 24.13 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf01b0eb-4647-4748-a218-1b9bdb8a57e7")
+	)
+	(junction
 		(at 24.13 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edf5290e-ee6c-4e2b-b923-7ec67092c981")
+		(uuid "d7f1bb8f-9890-4de5-8522-16490163f2a0")
 	)
 	(no_connect
 		(at 124.46 92.71)
@@ -1511,23 +1517,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 177.8) (xy 31.75 177.8)
+			(xy 24.13 170.18) (xy 31.75 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06a9fb5b-fc19-4476-a674-516739116bd0")
-	)
-	(wire
-		(pts
-			(xy 24.13 185.42) (xy 31.75 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae43f59-c975-4096-b16f-ccf0112555aa")
 	)
 	(wire
 		(pts
@@ -1588,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "2ce2a542-90a5-4050-9a8b-33aade48420a")
+	)
+	(wire
+		(pts
+			(xy 24.13 185.42) (xy 31.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f82038c-49f7-4212-8aa3-25ce96521edf")
 	)
 	(wire
 		(pts
@@ -1761,6 +1767,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 177.8) (xy 24.13 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb00535-1d74-4432-8dc4-1dfe1b6a2a90")
+	)
+	(wire
+		(pts
 			(xy 173.99 130.81) (xy 173.99 133.35)
 		)
 		(stroke
@@ -1781,13 +1797,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 185.42) (xy 24.13 177.8)
+			(xy 24.13 177.8) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "debfbc79-ec9a-4c3a-a5a6-da6ded8a2043")
+		(uuid "e8d28a99-4f35-4ddf-bb02-b6d2f2fb8d3c")
 	)
 	(wire
 		(pts
@@ -1798,6 +1814,16 @@
 			(type default)
 		)
 		(uuid "f011e69a-010a-44aa-886c-03977f169abd")
+	)
+	(wire
+		(pts
+			(xy 24.13 177.8) (xy 31.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f500f0ed-6b80-4e8e-bc34-4cae17557316")
 	)
 	(wire
 		(pts
@@ -2031,7 +2057,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 182.88 0)
+		(at 31.75 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2042,7 +2068,7 @@
 		(fields_autoplaced yes)
 		(uuid "45cef014-7d00-452f-9821-9fd7a19cddb8")
 		(property "Reference" "H2"
-			(at 34.29 180.3399 0)
+			(at 34.29 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2053,7 +2079,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 34.29 182.8799 0)
+			(at 34.29 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2064,7 +2090,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 31.75 182.88 0)
+			(at 31.75 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 182.88 0)
+			(at 31.75 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2112,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 182.88 0)
+			(at 31.75 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,6 +2207,85 @@
 			(project "FDD Synth prototype MK1"
 				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 31.75 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774c7cc8-e4ad-4a8a-af47-51b8205a89c9")
+		(property "Reference" "H3"
+			(at 34.29 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 34.29 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 31.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ca5e682-5e87-4f39-9903-0e3b2b368b04")
+		)
+		(instances
+			(project "FDD Synth prototype MK1"
+				(path "/ed113b11-1722-4efb-9669-9e8c19f5c8fd"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2489,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 175.26 0)
+		(at 31.75 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2395,7 +2500,7 @@
 		(fields_autoplaced yes)
 		(uuid "b16e8435-c4ac-419c-ab7c-5d3a7dbe363c")
 		(property "Reference" "H1"
-			(at 34.29 172.7199 0)
+			(at 34.29 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2406,7 +2511,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 34.29 175.2599 0)
+			(at 34.29 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2417,7 +2522,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 31.75 175.26 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 175.26 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2544,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 175.26 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
