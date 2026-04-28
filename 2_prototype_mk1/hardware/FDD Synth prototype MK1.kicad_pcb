@@ -11662,7 +11662,7 @@
 		)
 	)
 	(gr_text "Double check this \nresistor pack \nis correct"
-		(at 142.24 90.17 0)
+		(at 147.32 133.35 0)
 		(layer "F.SilkS")
 		(uuid "9c01c864-65e9-4f3c-a9de-d26ee936f327")
 		(effects
@@ -12117,6 +12117,14 @@
 		(layer "F.Cu")
 		(net "/SD card reader/SD_CS")
 		(uuid "2bc9f169-eb1e-43c0-8b1c-78fb9c4c9456")
+	)
+	(segment
+		(start 111.76 114.3)
+		(end 113.03 114.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SD card reader/SD_CS")
+		(uuid "8af78fe8-c960-4795-b382-41c394ede36c")
 	)
 	(segment
 		(start 111.71 114.25)
